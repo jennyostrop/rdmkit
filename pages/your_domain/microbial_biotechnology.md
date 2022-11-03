@@ -1,5 +1,6 @@
 ---
 title: Microbial biotechnology
+description: Data management solutions for microbial biotechnology data
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
 page_id: micro biotech
 related_pages: 
@@ -18,20 +19,20 @@ The **Design-Build-Test-Learn (DBTL) cycle** represents experimental design and 
 The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
 
 The components of the design stage could be summarised as below.
-* [Biological host](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
-* [Synthetic parts](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-syntethic-parts---existing-data-metadata-collection-and-publication).
-* [Metabolomic pathways and enzymes](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
-* [Mathematical model](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-mathematical-model---standards-and-metadata-publication) for system design.
+* [Biological host](microbial_biotechnology#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
+* [Synthetic parts](microbial_biotechnology#design-synthetic-parts---existing-data-metadata-collection-and-publication).
+* [Metabolomic pathways and enzymes](microbial_biotechnology#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
+* [Mathematical model](microbial_biotechnology#design-mathematical-model---standards-and-metadata-publication) for system design.
 
 #### Build
 The build stage in the microbial biotechnology and/or synthetic biology life cycle is about building of the microbial systems and involves the application of any number of a range of experimental techniques. In this stage the synthetic parts are assembled and transformed into the biological host.
 
 The main aspects of the build stage are:
-* [methods](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
+* [methods](microbial_biotechnology#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
 
 #### Test
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. This stage is mostly about:
-* [testing](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
+* [testing](microbial_biotechnology#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
 * Characterising the synthetic parts using experimental data.
 
 #### Learn
@@ -71,7 +72,7 @@ It is recommended to publish and share information about biological hosts in ded
 * Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the [Access to Biological Collection Data Schema (ABCD)](https://www.tdwg.org/standards/abcd/) and the activities of the [Biodiversity Information Standards task force (TDWG)](https://www.tdwg.org/). The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
 * The [NCBI taxonomy homepage](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) can also provide appropriate taxon IDs for recording taxonomic information.
 * Information about proposed standardised nomenclature for prokaryotes can be found at the [List of Prokaryotic names with Standing in Nomenclature (LPSN)](https://lpsn.dsmz.de/) ([Parte et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32701423/)).
-* Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](https://rdmkit.elixir-europe.org/marine_metagenomics.html) domain. Information can also be found in a publication by Ten Hoopen and colleagues ([Ten Hoopen et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26203332/)). 
+* Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](marine_metagenomics) domain. Information can also be found in a publication by Ten Hoopen and colleagues ([Ten Hoopen et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26203332/)). 
 * [The Environment Ontology](https://sites.google.com/site/environmentontology/) is also relevant here to describe environmental entities of all kinds, from microscopic to intergalactic scales.
 * A set of genetic nomenclature standards have been established by microbiologists and have been used for many years. These are still a useful way of communicating data about the genotype of a strain ([Maloy and Hughes, 2007](https://pubmed.ncbi.nlm.nih.gov/17352909/)).
 * Minimal information standards have been established to specify this metadata, such as the MIGS standard ([Field et al., 2008](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2409278/)).
